@@ -1,0 +1,4 @@
+{% set list1 = ['a','b','c'] -%}
+{% for i in list1 -%}
+The value of var is {{ i }}
+{% endfor -%}
